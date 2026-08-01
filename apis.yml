@@ -1,7 +1,23 @@
 aid: pawsh
 name: Pawsh
-description: Pawsh is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pawsh is a consumer marketplace that connects pet owners with top-rated local dog
+  and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent
+  pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as
+  a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this
+  enrichment pass the company publishes no public API, developer portal, SDKs, or documentation
+  surface — it is a consumer-facing booking platform with no programmable interface to catalog.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.pawsh.app/og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pet Care
+- Grooming
+- Marketplace
+- Booking
+- Pets
+- Consumer
+- Local Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pawsh-domain-security.yml
 - type: Website
   url: https://pawsh.app
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
