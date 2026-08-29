@@ -6,6 +6,17 @@ description: Pawsh is a consumer marketplace that connects pet owners with top-r
   a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this
   enrichment pass the company publishes no public API, developer portal, SDKs, or documentation
   surface — it is a consumer-facing booking platform with no programmable interface to catalog.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
